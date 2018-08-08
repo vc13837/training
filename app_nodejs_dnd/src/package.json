@@ -1,0 +1,9 @@
+{
+  "name": "burgerapp",
+  "version": "0.0.1",
+  "description": "burgers",
+  "author": "Me",
+  "dependencies": {
+    "express": "latest"
+  }
+}

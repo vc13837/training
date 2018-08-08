@@ -1,0 +1,50 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+        <title>DnD Dice</title>
+        <style type="text/css">
+            body {
+                background-color: #607;
+		            text-align: center;
+                color: #000;
+                font-size: 0.9em;
+                font-family: sans-serif,helvetica;
+                margin: 10;
+                padding: 0;
+            }
+
+            h1 {
+                text-align: center;
+                margin: 0;
+                padding: 0.6em 2em 0.4em;
+                background-color: #294172;
+                color: #fff;
+                font-weight: normal;
+                font-size: 1.75em;
+                border-bottom: 2px solid #000;
+            }
+
+            /*]]>*/
+        </style>
+    </head>
+
+    <body>
+
+      <h1>Roll the dice - may the odds be ever in your favour</h1>
+      </br>
+      Multiplier: <input type="text" id="inputmultiplier" /></br>
+      </br>
+	    x-sided die: <input type="text" id="inputdnumber" /></br>
+	    </br>
+      Modifier: <input type="text" id="inputmodifier" /></br>
+
+      <script src="roll.js"></script>
+      <p id="rolldice"></p>
+      <button type="button" onclick="luckyroll()">Roll</button>
+
+
+      <textarea id="rolls" rows="2" cols="20"></textarea>
+      <p id = "finalresult" size = "13"></p>
+      <p id="modifiernumber" rows="2" cols="20"></p>
+
+    </body>
+</html>
